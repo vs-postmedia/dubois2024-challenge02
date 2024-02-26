@@ -3,12 +3,11 @@
     import { onMount } from 'svelte';
     import { csvParse } from 'd3-dsv';
     import Chart from "$components/Chart.svelte";
-    import Select from "svelte-select"; // https://github.com/rob-balfre/svelte-select
 
     // DATA
     // import data from "$data/data.js";
     import { menuItems } from "$data/menu-items";
-    const dataUrl = 'https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge03/data.csv';
+    const dataUrl = 'https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge02/data.csv';
 
     // VARIABLES
     let data, value;
